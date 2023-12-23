@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>netflix</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <!-- THIS LINE -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="header container-fluid">
+    <nav>
+      <div class="col-6 col-lg-6 col-sm-6 col-xs-6">
+      <img src="images/logo.png" class="logo">
+      </div>
+      <div class="col-6 col-sm-6 col-lg-6 col-xs-6 col-sm-6 d-flex justify-content-end justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
+        <!-- <button class="language-btn">English <img src="images/down-icon.png"></button> -->
+        <div class="dropdown">
+          <button class="btn btn-transparent dropdown-toggle border border-white text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              English
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Tamil</a>
+              <a class="dropdown-item" href="#">Hindi</a>
+              <a class="dropdown-item" href="#">Kannada</a>
+          </div>
+      </div>
+        <button>Sign In</button>
+      </div>
+
+      
+      
+    </nav>
+    <div class="header-content container  text-white">
+      <h2 class="col-12 text-light" style="font-size: 4em; font-weight: bold;">Unlimited movies,Tv shows and more..</h2>
+      <h3 class="text-light">Watch anymore.cancel anytime</h3>
+      <p class="text-light">Ready to watch? Enter your email to create or restart your membership.. </p>
+      <form class="form-inline my-2 my-lg-0 was-validated needs-validation" id="submit-form" >
+        <div class="row">
+          <div class="col-lg-12 col-lg-offset-4 col-md-12 col-sm-12 col-xl-12 ml-5 align-items-center">
+              <div class="input-group input-group-lg">
+                
+                  <input type="text" class="form-control input-lg" placeholder="Email Address" required/> 
+                    <div class="valid-feedback text-start fs-4">Valid.</div>
+                    <div class="invalid-feedback text-start fs-4">Check this checkbox to continue.</div>
+      
+                  <span class="input-group-btn">
+
+                    
+                    
+                    <button class="btn btn-danger btn-lg mb-4" type="button" style="border: none; border-top-left-radius: 0px; border-bottom-left-radius: 0px;">Get Started</button>
+                    
+                  </span>
+
+                  <div id="valid">
+
+                  </div>
+
+                  
+              </div><!-- /input-group -->
+          </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      </form>
+    </div>
+  </div>
+  <div class="features bg-black text-white">
+    <div class="row"> <!--frst-->
+      <div class="text-col">
+        <h2>Enjoy on your Tv.</h2>
+        <p>Watch on smart Tvs, playStation, Xbox, Chromecast, Apple Tv, Blu-ray players and more</p>
+      </div>
+      <div class="img-col">
+        <img src="images/wp6560406-stranger-things-laptop-wallpapers.jpg">
+      </div>
+    </div>
+    <div class="row"> <!--scnd-->
+      <div class="img-col">
+        <img src="images/uwp3691913.jpeg">
+      </div>
+
+      <div class="text-col">
+        <h2>Download your shows to Watch offline.</h2>
+        <p>Save your favourites easily and always have something to watch </p>
+      </div>
+    </div>
+    <div class="row"><!--thrd-->
+      <div class="text-col">
+        <h2>Watch Everywhere.</h2>
+        <p>Stream unlimited movies and tv shows on your phone,tablet,laptop and Tv</p>
+      </div>
+      <div class="img-col">
+        <img src="images/wp9226684-money-heist-season-5-wallpapers.jpg">
+      </div>
+    </div>
+
+
+  </div>
+  <div class="row bg-black"> <!--frth-->
+    <div class="img-col">
+      <img src="images/977088.jpg">
+    </div>
+    <div class="text-col text-white">
+      <h2>create profiles for children.</h2>
+      <p>send children on adventure with their favourite characters in a space made just for them-free with your
+        membership.</p>
+    </div>
+  </div>
+  </div>
+
+  <div class="faq bg-black">
+    <h2 class="text-white">Frequently Asked Questions</h2>
+    <ul class="accordion">
+      <li>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  What  is  Netflix?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+               
+                Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices. You can watch as much as you want, whenever you want – all for one low monthly price.
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  
+                  How  much  does  Netflix  cost?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse in">
+              <div class="panel-body">
+               
+                The prices for all the tiers remain the same. The mobile plan costs Rs 149 per month, while the basic plan is priced at Rs 199 a month. The Standard and Premium plan is for Rs 499 and Rs 649, respectively.
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                 
+                  Where  can  l watch?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse in">
+              <div class="panel-body">
+                
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                  How  do I  cancel?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse in">
+              <div class="panel-body">
+               
+                You can do this whether you're using an Android phone or an Apple iPhone.
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <small class="text-white-50">Ready to watch? Enter your Email to create or restart your membership</small>
+    <form class="form-inline my-2 my-lg-0 was-validated">
+      <div class="row">
+        <div class="col-lg-12 col-lg-offset-4 col-md-12 col-sm-12 col-xl-12 ml-5 align-items-center">
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-control" placeholder="Email Address"/> 
+                <span class="input-group-btn">
+                    <button class="btn btn-danger btn-lg" type="button">Get Started</button>
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    </form>
+  </div>
+  
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start text-muted bg-black">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <!-- Left -->
+    
+    
+    
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <h4 class="m-4 d-flex  mt-5 mr-5">
+      Questions? call 000-000-000-000
+    </h4>
+    <div class="container text-start text-md-start mt-5">
+      <!-- Grid row --> 
+      
+      <div class="row mt-3 container-fluid">
+        <!-- Grid column -->
+        <!-- Grid column -->
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Investor Relations</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Privacy</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Speed Test</a>
+          </p>
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <p>
+            <a href="#!" class="text-reset">Help Center</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Jobs</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Cookies Preference</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Legal Notices</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <p>
+            <a href="#!" class="text-reset">Account</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ways to watch</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Corporate Information</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Only on Netflix</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <p>
+            <a href="#!" class="text-reset">Media Centre</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Terms of Use</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-black">hello</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <div class="dropdown d-flex justify-content-start mb-5 ml-4">
+    <button class="btn btn-transparent dropdown-toggle border border-white text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        English
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Tamil</a>
+        <a class="dropdown-item" href="#">Hindi</a>
+        <a class="dropdown-item" href="#">Kannada</a>
+    </div>
+  </div>
+  <p>
+    <a href="#!" class="text-white d-flex justify-content-start ml-4">Netflix, India</a>
+  </p>
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    
+  </div>
+
+  
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<script>
+  $("#submit-form").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://google.com",
+          data:$("#submit-form").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Form submitted successfully")
+              window.location.reload()
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script>
+
+</body>
+
+</html>
+
